@@ -21,9 +21,9 @@ app.get("/getData", (req, res) => {
         res.send(toilet)
 })
 
-// app.get('/thisLocation', (req, res)=>{
-//     let x = req.body.latitude / 
-// })
+ app.get('/thisLocation', (req, res)=>{ //이거 만들어야 함
+     let x = req.body.latitude / 
+ })
 
 
 app.listen(1222, () => console.log("sever-start"))
